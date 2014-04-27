@@ -5,7 +5,7 @@ require "update_or_create/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "update_or_create"
+  s.name        = "update_or_create_jb"
   s.version     = UpdateOrCreate::VERSION
   s.summary     = "Allow update_or_create to ActiveRecord."
   s.description = "Allow to use update_or_create when db:seed or sometime."
