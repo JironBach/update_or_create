@@ -36,10 +36,19 @@ describe '#name' do
     	count_first = TestTable.all.length
 			TestTable.update_or_create(second)
 			count_last = TestTable.all.length
-
 			second_value = TestTable.find(2).value
 
       expect(count_last - count_first).to eq(second.length - first.length)
+    end
+
+    it 'first_or_createでは変わらないことを確認' do
+    	count_first = TestTable.all.length
+			TestTable.update_or_create(first)
+			TestTable.first_or_create(second)
+			count_last = TestTable.all.length
+			second_value = TestTable.find(2).value
+
+      expect(second_value).to eq('ほげ')
     end
 
     it '２回目の更新が反映されること' do
@@ -47,7 +56,6 @@ describe '#name' do
 			TestTable.update_or_create(first)
 			TestTable.update_or_create(second)
 			count_last = TestTable.all.length
-
 			second_value = TestTable.find(2).value
 
       expect(second_value).to eq('ホゲ')
