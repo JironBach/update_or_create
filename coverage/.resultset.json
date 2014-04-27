@@ -1,7 +1,38 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/js/work/update_or_create/lib/update_or_create.rb": [
+        1,
+        null,
+        1,
+        null
+      ],
+      "/Users/js/work/update_or_create/lib/update_or_create/activerecord.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
     },
-    "timestamp": 1398594531
+    "timestamp": 1398600753
   }
 }

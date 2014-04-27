@@ -1,6 +1,6 @@
 require 'active_record/base'
 
-module UpateOrCreate
+module UpdateOrCreate
 	class ActiveRecord::Base
 		class << self
 			def update_or_create(attributes_array)
