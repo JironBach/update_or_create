@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    update_or_create_jb (4.1.0.2)
+    update_or_delete_or_create (4.1.0.0)
       rails (~> 4.1.0)
       rspec
       rspec-rails
@@ -130,4 +130,4 @@ DEPENDENCIES
   rspec
   rspec-rails
   simplecov
-  update_or_create_jb!
+  update_or_delete_or_create!

@@ -7,7 +7,7 @@ Very useful when use seeds.rb.
 * Add  
 
 ```ruby
-gem 'update_or_create_jb'
+gem 'update_or_delete_or_create'
 ```
   to Gemfile.
 
