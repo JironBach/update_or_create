@@ -6,7 +6,7 @@ update_or_create allows update_or_create to ActiveRecord.
 * Add  
 
 ```ruby
-gem 'update_or_create'
+gem 'update_or_create_jb'
 ```
   to Gemfile.
 
