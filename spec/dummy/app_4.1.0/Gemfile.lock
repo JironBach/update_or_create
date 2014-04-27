@@ -1,7 +1,7 @@
 PATH
   remote: /Users/js/work/update_or_create
   specs:
-    update_or_create_jb (4.1.0.1)
+    update_or_create_jb (4.1.0.2)
       rails (~> 4.1.0)
       rspec
       rspec-rails

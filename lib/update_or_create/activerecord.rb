@@ -12,8 +12,12 @@ module UpdateOrCreate
 					if first.nil?
 						self.new(attributes).save
 					else
-						first.attributes = attributes
-						first.save
+            if attributes['delete record !!!'] == true
+              first.destroy
+            else
+  						first.attributes = attributes
+  						first.save
+            end
 					end
 				end
 	   	end

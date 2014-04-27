@@ -1,6 +1,7 @@
 # UpdateOrCreate #
 ## DB utility plugin for ActiveRecord ##
 update_or_create allows update_or_create to ActiveRecord.
+Very useful when use seeds.rb.
 
 ### Install ###
 * Add  
@@ -11,7 +12,9 @@ gem 'update_or_create_jb'
   to Gemfile.
 
 ### Usage ###
-* Model.update_or_create([id:1, value:'test']) or etc...
+* add `require 'update_or_create'` to seeds.rb.
+* Model.update_or_create([id: 1, value: 'test'], or etc...])
+* When set `{ id: 4, 'delete record !!!' => true },` then record of "id=4" will be deleted.
 
 ### System requirement ###
 * Ruby 2.0 or later.
