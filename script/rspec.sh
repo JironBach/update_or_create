@@ -7,5 +7,7 @@ if [ $# -lt 1 ]; then
 fi
 
 #export RAILS_ENV=$1
-rspec spec/dummy/app_$1
+pushd spec/dummy/app_$1
+rspec
+popd
 

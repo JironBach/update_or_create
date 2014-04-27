@@ -1,5 +1,5 @@
 PATH
-  remote: /Users/js/work
+  remote: /Users/js/work/update_or_create
   specs:
     update_or_create (4.1.0)
       rails (~> 4.1.0)

@@ -6,7 +6,7 @@ gem 'rails', '4.1.0'
 
 #debug
 #gemspec path: File.expand_path('../../../../', __FILE__)
-gem 'update_or_create', path: File.expand_path('../../../../')
+gem 'update_or_create', path: File.expand_path('../../../../', __FILE__)
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

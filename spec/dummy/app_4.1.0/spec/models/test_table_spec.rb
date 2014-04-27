@@ -32,8 +32,8 @@ describe '#name' do
     end
 
     it '２回目の更新で件数が増えること' do
-    	count_first = TestTable.all.length
 			TestTable.update_or_create(first)
+    	count_first = TestTable.all.length
 			TestTable.update_or_create(second)
 			count_last = TestTable.all.length
 
