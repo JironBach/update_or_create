@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    update_or_delete_or_create (4.1.0.1)
+    update_or_delete_or_create (4.1.0.2)
       rails (~> 4.1.0)
       rspec
       rspec-rails
