@@ -1,3 +1,3 @@
 module UpdateOrCreate
-  VERSION = "4.1.6.0"
+  VERSION = "4.1.7.0"
 end
