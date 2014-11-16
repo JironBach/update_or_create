@@ -8,6 +8,6 @@ fi
 
 #export RAILS_ENV=$1
 pushd spec/dummy/app_$1
-rspec
+bundle exec rspec
 popd
 
